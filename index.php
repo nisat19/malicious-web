@@ -2,7 +2,7 @@
 
 if(isset($_GET) && $_GET['data']){
   $myfile = fopen("dumpdata.txt", "w") or die("Unable to open file!");
-  fwrite($myfile, "\n\n" + date("Y-m-d H:i:s") . " : " .$_GET['data']);
+  fwrite($myfile, "\n\n" . date("Y-m-d H:i:s") . " : " .$_GET['data']);
   fclose($myfile);
 }
 
