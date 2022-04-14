@@ -20,7 +20,7 @@ if(isset($_GET) && $_GET['data']){
       background-color: #21b26a;
     }
   </style>
-  <title>Get a free juice!</title>
+  <title>Get a free Cash Voucher!</title>
 </head>
 
 <body>
